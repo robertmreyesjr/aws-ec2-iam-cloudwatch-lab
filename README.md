@@ -108,10 +108,14 @@ Shows:
 - Instance type
 - Security group rules
 
+<img width="1587" height="684" alt="01-ec2-launch" src="https://github.com/user-attachments/assets/5f4fe9ab-6be0-4023-9824-3dbc06c5496a" />
+
 ### 2. Apache Web Server Running
 Shows:
 - Browser open to the EC2 public IP
 - Test webpage loading successfully
+
+<img width="696" height="149" alt="02-web-server-running" src="https://github.com/user-attachments/assets/e0e33ce1-61a0-4589-ac51-1b523319dfa9" />
 
 ### 3. IAM Role Created
 Shows:
@@ -119,33 +123,47 @@ Shows:
 - Trusted entity as EC2
 - Attached policies
 
+<img width="1599" height="621" alt="03-iam-role" src="https://github.com/user-attachments/assets/7b18525c-3746-471c-aea3-a17c58fcaccc" />
+
 ### 4. IAM Role Attached to EC2
 Shows:
 - EC2 instance details
 - IAM role field with attached role
 
+<img width="1647" height="696" alt="04-role-attached-to-ec2" src="https://github.com/user-attachments/assets/5eeeeee1-3d9e-4080-9394-45f8e0fc03ae" />
+
 ### 5. CloudWatch Agent Running
 Shows:
 - Terminal output with CloudWatch Agent active/running
 
+<img width="856" height="729" alt="05-cloudwatch-agent-running" src="https://github.com/user-attachments/assets/238a7f08-a9e2-4ec7-b9ca-ef0323152754" />
+
 ### 6. SNS Subscription Confirmed
 Shows:
 - SNS topic page or email confirmation
+
+<img width="1409" height="549" alt="08-sns-subscription-confirmed" src="https://github.com/user-attachments/assets/da615324-7e1b-47eb-a420-feca4e09c558" />
 
 ### 7. CPU Alarm Created
 Shows:
 - CPUUtilization alarm details
 - Threshold and SNS action
 
+<img width="1268" height="497" alt="06-cpu-alarm" src="https://github.com/user-attachments/assets/53a05d38-afad-48b7-bca3-75a967c2e13d" />
+
 ### 8. Disk Alarm Created
 Shows:
 - disk_used_percent alarm details
 - Threshold and SNS action
 
+<img width="1265" height="671" alt="07-disk-alarm" src="https://github.com/user-attachments/assets/ce604e73-b95d-4e72-bf43-aef01c6e25e6" />
+
 ### 9. Alarm Triggered / Email Received
 Shows:
 - CloudWatch alarm state as ALARM
 - Or SNS alert email
+
+<img width="1270" height="670" alt="09-alarm-state-or-email-alert" src="https://github.com/user-attachments/assets/44515209-ca66-454f-b659-a113dcb75626" />
 
 ### 10. Architecture Diagram
 Shows:
@@ -155,6 +173,8 @@ Shows:
 - CloudWatch
 - SNS
 - Email alert path
+
+<img width="1024" height="1536" alt="architecture-diagram" src="https://github.com/user-attachments/assets/f0776829-90b4-4d28-bf2e-269345d2e11d" />
 
 ---
 
